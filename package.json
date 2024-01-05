@@ -1,6 +1,6 @@
 {
   "name": "@nmxjs/redis",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -26,7 +26,9 @@
   },
   "dependencies": {
     "@nestjs/common": "^10.2.10",
-    "@nmxjs/config": "^1.0.7",
     "redis": "^4.6.11"
+  },
+  "peerDependencies": {
+    "@nmxjs/config": "^1.0.7"
   }
 }
